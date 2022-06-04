@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIT Ranchi</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .profile{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .dp{
+            max-width: 250px;
+            border-radius: 50%;
+        }
+        .social{
+            margin-top: 15px;
+        }
+        .social img{
+            cursor: pointer;
+            margin: 0 12px;
+        }
+        .social img:hover{
+            transform: scale(1.2);
+        }
+        .landing{
+            overflow: hidden;
+            position: relative;
+        }
+        .heading{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            font-size: 4rem;
+            text-align: center;
+            z-index: 10;
+        }
+        .text{
+            text-align: center;
+            font-size: 1.3rem;
+            margin: 10px 50px;
+        }
+        .academic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        .acad-img{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+
+        }
+        .acad-img img{
+            border-radius: 10px;
+            margin-top: 15px;
+            cursor: pointer;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .acad-img img:hover{
+            transform: translateY(-10px);
+        }
+        footer{
+            width: 100%;
+            text-align: center;
+            background-color: antiquewhite;
+            margin-top: 25px;
+        }
+        footer p{
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">
+        Indian Institute of Information Technology Ranchi
+    </h1>
+    <!-- <center><img src="/images/Logo.png" style="width:250px; height: 245px; border-radius: 60%;"></center> -->
+    <div class="landing">
+        <img src="/images/IIIT-R.jpeg" style="width:100vw;">
+    </div>
+    <p class="text">
+        Indian Institute of Information Technology, Ranchi (IIIT Ranchi), is one of the Indian Institutes of
+        Information Technology, a group of 25 Interdisciplinary Technical Universities of higher education started
+        by Government of India, focused on Information Technology. It is an "Institute of National Importance",
+        declared by an act of parliament.
+    </p>
+
+    <div class="academic">
+        <h2>Academic Building</h2>
+        <div class="acad-img">
+            <img src="/images/Acadimic.jpeg" style="width:400px; height: 300px;">
+            <img src="/images/Acadimic Main.jpeg" style="width:400px; height: 300px;">
+        </div>
+    </div>
+
+    <div class="academic">
+        <h2>Mess</h2>
+        <div class="acad-img">
+            <img src="/images/Mess.jpeg" style="width:400px; height: 300px;">
+            <img src="/images/Mess 1.jpeg" style="width:400px; height: 300px;">
+        </div>
+    </div>
+
+    <div class="academic">
+        <h2>Auditorium</h2>
+        <div class="acad-img">
+            <img src="/images/Auditorium.jpeg" style="width:400px; height: 300px;">
+            <img src="/images/AUDITORIUM 1.jpeg" style="width:400px; height: 300px;">
+        </div>
+    </div>
+
+    <div class="academic">
+        <h2>Hostel</h2>
+        <div class="acad-img">
+            <img src="/images/Hostel.jpeg" style="width:400px; height: 300px;">
+            <img src="/images/Hostel 1.jpg" style="width:400px; height: 300px;">
+        </div>
+    </div>
+
+    <div class="academic">
+        <h2>Ground</h2>
+        <div class="acad-img">
+            <img src="/images/Ground 1.jpeg" style="width:400px; height: 300px;">
+            <img src="/images/Ground 2.jpg" style="width:400px; height: 300px;">
+        </div>
+    </div>
+
+    <div class="profile">
+        <img class="dp" src="/images/DP.jpg" alt="">
+        <h1>Amit Singh</h1>
+        <div class="social">
+            
+            <a href="https://www.instagram.com/i_singhamit_007/" target="_blank"><img src="/images/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/amit-singh-6761a7229/" target="_blank"><img src="/images/linkedin.png" alt=""></a>
+            <a href="https://github.com/i-amitsingh" target="_blank"><img src="/images/github.png" alt=""></a>
+       
+        </div>
+    </div>
+    
+    <footer>
+        <p>
+            Made with <span><img src="/images/heart.png" alt=""></span> by Amit Singh
+        </p>
+        
+    </footer>
+</body>
+
+</html>
